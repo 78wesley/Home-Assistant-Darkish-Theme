@@ -1,4 +1,4 @@
-dark:
+darkish:
   # Accent Colour (Edit this to change the accent) #
   accent: "#03a9f4" # this
 
@@ -23,26 +23,27 @@ dark:
   light-primary-color: "var(--accent)"
 
   # Controls
-  #toggle-button-color: "var(--accent)"
+  toggle-button-color: "var(--accent)"
   paper-toggle-button-checked-button-color: "var(--accent)"
   paper-toggle-button-checked-bar-color: "var(--accent)"
   paper-toggle-button-checked-ink-color: "var(--accent)"
-  #paper-toggle-button-unchecked-button-color: "#A5A5A5"
-  #paper-toggle-button-unchecked-bar-color: "#787878"
+  paper-toggle-button-unchecked-button-color: "var(--primary-text-color)"
+  paper-toggle-button-unchecked-bar-color: "#878787"
   paper-checkbox-checked-color: "var(--accent)"
   paper-checkbox-checked-ink-color: "var(--accent)"
   paper-radio-button-checked-color: "var(--accent)"
   paper-input-container-focus-color: "var(--accent)"
   paper-dropdown-menu-focus-color: "var(--accent)"
-  #paper-icon-active-color: "#ffffff" # this
   slider-color: "var(--accent)"
   mdc-theme-primary: "var(--accent)"
-
+  
   # Icons
   state-icon-color: "#A0A0A0"
   state-icon-active-color: "#fdd835cc" #this icon wesleypc
   sidebar-selected-icon-color: "var(--accent)"
   sidebar-icon-color: "#A0A0A0"
+ 
+  
   # Badges
   ha-label-badge-color: "var(--accent)"
   label-badge-background-color: "#121212"
@@ -50,7 +51,8 @@ dark:
 
   # Tabs
   paper-tab-ink: "var(--accent)"
-
+  paper-listbox-color: "var(--primary-text-color)"
+    
   # Divider
   divider-color: "#2D2D2D"
 
@@ -71,9 +73,3 @@ dark:
   # switch
   switch-unchecked-color: "var(--primary-text-color)" #this
   switch-unchecked-button-color: "#878787" #this
- 
- 
- 
- 
- 
- 
