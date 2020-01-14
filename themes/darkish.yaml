@@ -1,8 +1,8 @@
----
 #
-# Blue Night Theme
+# Darkish Theme
+# https://github.com/78wesley/Darkish-Theme
 #
-blue_night_myown:
+darkish:
   accent-color: "hsl(var(--huesat) 30%)"
   base-hue: "220"
   base-sat: "5%"
@@ -56,8 +56,8 @@ blue_night_myown:
   paper-item-icon_-_color: "var(--paper-item-icon-color)"
   paper-item-selected_-_background-color: "hsla(0, 0%, 0%, 0.2)"
   paper-item-selected_-_color: "hsl(var(--huesat) 20%)"
-  # paper-listbox-background-color: "hsl(var(--huesat) 16%)"
-  # paper-listbox-color: "hsl(var(--huesat) 50%)"
+  ## paper-listbox-background-color: "hsl(var(--huesat) 16%)"
+  ## paper-listbox-color: "hsl(var(--huesat) 50%)"
   paper-slider-active-color: "hsl(var(--base-hue), 90%, 50%)"
   paper-slider-container-color: "hsl(var(--huesat) 28%)"
   paper-slider-disabled-active-color: "hsl(var(--base-hue), 80%, 25%)"
@@ -87,10 +87,7 @@ blue_night_myown:
   text-primary-color: "hsl(var(--huesat) 90%)"
   
   #myown
-  # Nav Menu
-  #paper-listbox-color: '#777777'
-  paper-listbox-color: "var(--paper-card-background-color)"
-  #paper-listbox-background-color: '#141414'
-  paper-listbox-background-color: "var(--paper-card-background-color)"
+  paper-listbox-color: 'hsl(var(--huesat))'
+  paper-listbox-background-color: '#141414'
   paper-grey-50: 'var(--primary-text-color)'
   paper-grey-200: '#222222'
