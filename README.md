@@ -3,7 +3,7 @@
 
 > Darkish Theme by [@78wesley](https://github.com/78wesley)
 
->> Based on [The Material Dark Pink Theme](https://github.com/home-assistant-community-themes/material-dark-pink) by [@GreenTurtwig](https://github.com/GreenTurtwig)
+> Based on [The Material Dark Pink Theme](https://github.com/home-assistant-community-themes/material-dark-pink) by [@GreenTurtwig](https://github.com/GreenTurtwig)
 
 ## Screenshots
 
