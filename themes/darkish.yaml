@@ -84,7 +84,7 @@ darkish:
   mdc-dialog-title-ink-color: "var(--accent)"
   mdc-checkbox__native-control: "var(--primary-text-color)"
 
-  mdc-select-fill-color: "var(primary-background-color:)"
+  mdc-select-fill-color: "var(--input-fill-color)"
   mdc-select-ink-color: "var(--primary-text-color)"
   mdc-select-disabled-ink-color: "var(--secondary-text-color)"
   input-fill-color: "rgba(255, 255, 255, 0.05)"
@@ -93,10 +93,3 @@ darkish:
   input-label-ink-color: "rgba(255, 255, 255, 0.6)"
   input-disabled-ink-color: "rgba(255, 255, 255, 0.37)"
   input-dropdown-icon-color: "rgba(255, 255, 255, 0.54)"
-  #test
-  #mdc-checkbox: "#ff0000"
-  #mdc-checkbox-border: "ff0000"
-  # mdc-checkbox--upgraded: ""
-  # mdc-ripple-upgraded: ""
-  # mdc-ripple-upgraded--unbounded: ""
-  # mdc-checkbox--selected: ""
