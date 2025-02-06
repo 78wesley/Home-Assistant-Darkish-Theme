@@ -36,14 +36,13 @@ darkish:
   paper-dropdown-menu-focus-color: "var(--accent)"
   slider-color: "var(--accent)"
   mdc-theme-primary: "var(--accent)"
-  
+
   # Icons
   state-icon-color: "#A0A0A0"
   state-icon-active-color: "#fdd835cc" # icon active
   sidebar-selected-icon-color: "var(--accent)"
   sidebar-icon-color: "#A0A0A0"
- 
-  
+
   # Badges
   ha-label-badge-color: "var(--accent)"
   label-badge-background-color: "#121212"
@@ -52,7 +51,7 @@ darkish:
   # Tabs
   paper-tab-ink: "var(--accent)"
   paper-listbox-color: "var(--primary-text-color)"
-    
+
   # Divider
   divider-color: "#2D2D2D"
 
@@ -69,18 +68,18 @@ darkish:
   lumo-body-text-color: "var(--primary-text-color)"
   lumo-tertiary-text-color: "var(--secondary-text-color)"
   lumo-primary-contrast-color: "var(--primary-text-color)"
-  
-  # switch
+
+  # Switch
   switch-unchecked-color: "var(--primary-text-color)"
   switch-unchecked-button-color: "#878787"
-  
+
   # Material
   material-body-text-color: "var(--accent)" # Upper text
   material-secondary-background-color: "#515151" # background hover
   material-divider-color: "#515151" # background selected
   material-background-color: "var(--paper-grey-200)"
-  
-  # mdc
+
+  # Mdc
   mdc-dialog-title-ink-color: "var(--accent)"
   mdc-checkbox__native-control: "var(--primary-text-color)"
 
@@ -93,3 +92,6 @@ darkish:
   input-label-ink-color: "rgba(255, 255, 255, 0.6)"
   input-disabled-ink-color: "rgba(255, 255, 255, 0.37)"
   input-dropdown-icon-color: "rgba(255, 255, 255, 0.54)"
+
+  # Leaflet
+  map-filter: "invert(0.9) hue-rotate(170deg) brightness(1.5) contrast(1.2) saturate(0.3)"
