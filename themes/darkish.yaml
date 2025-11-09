@@ -1,32 +1,37 @@
 darkish:
+  # Colors
+  primary-color: "#03A9F4"
+  accent-color: "var(--primary-color)"
+
+  # Text
+  primary-text-color: "#E1E1E1"
+  secondary-text-color: "#9B9B9B"
+
+  # Background
+  primary-background-color: "#121212"
+  secondary-background-color: "#1D1D1D"
+
+  # Icons
+  state-icon-color: "#A0A0A0"
+  state-icon-active-color: "#FDD835CC"
+  sidebar-selected-icon-color: "var(--primary-color)"
+  sidebar-icon-color: "var(--state-icon-color)"
+
+  # Example at Automations > traces button
+  ha-color-on-primary-normal: "var(--ha-color-primary-40)"
+
+  # Header
+  app-header-text-color: "#FFFFFF"
+  app-header-background-color: "var(--primary-color)"
+
+  # Divider
+  divider-color: "#2D2D2D"
+
+  # Line under input fields (:after)
+  input-idle-line-color: "#E1E1E11F"
+
+  # Card
+  card-background-color: "var(--secondary-background-color)"
+
   modes:
-    dark:
-      # Colors
-      primary-color: "#03A9F4"
-      accent-color: "var(--primary-color)"
-
-      # Background
-      primary-background-color: "#121212"
-      secondary-background-color: "#1D1D1D"
-
-      # Icons
-      state-icon-color: "#A0A0A0"
-      state-icon-active-color: "#FDD835CC"
-      sidebar-selected-icon-color: "var(--primary-color)"
-      sidebar-icon-color: "var(--state-icon-color)"
-
-      # Example at Automations > traces button
-      ha-color-on-primary-normal: "var(--ha-color-primary-40)"
-
-      # Header
-      app-header-text-color: "#FFFFFF"
-      app-header-background-color: "var(--primary-color)"
-
-      # Divider
-      divider-color: "#2D2D2D"
-
-      # Line under input fields (:after)
-      input-idle-line-color: "#E1E1E11F"
-
-      # Card
-      card-background-color: "var(--secondary-background-color)"
+    dark: {}
